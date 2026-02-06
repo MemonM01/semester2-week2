@@ -25,7 +25,6 @@ Remember that you can **use SQL files** to test queries before using them in Pyt
    import sqlite3
    import pandas as pd
 
-   conn = sqlite3.connect("delivery_demo_light.db")
    ```
 2. Use SQL queries via `conn.execute()` to fetch data.
 3. Visualise results using **pandas or matplotlib** where needed.
